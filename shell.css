@@ -597,56 +597,57 @@
 /* ========== Mobile Responsive ========== */
 @media (max-width: 768px) {
   body {
+    padding: 8px;
     font-size: 14px;
-    padding: 10px;
-  }
-
-  .header .logo h1 {
-    font-size: 18px;
-  }
-
-  .file-table,
-  .file-table th,
-  .file-table td {
-    font-size: 12px;
-    padding: 6px;
-  }
-
-  .terminal-popup {
-    width: 95%;
-    max-width: 95%;
-    left: 2.5%;
-    top: 50px;
-  }
-
-  .info-popup {
-    width: 95%;
-    max-width: 95%;
-    left: 2.5%;
-    top: 50px;
-  }
-
-  .panel {
-    margin: 10px 0;
   }
 
   .header-content {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .logout-btn {
-    margin-top: 10px;
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  .file-table {
+    font-size: 12px;
+  }
+
+  .file-table th,
+  .file-table td {
+    padding: 6px 4px;
+    text-align: left;
+  }
+
+  .file-table .actions button,
+  .file-table .actions a {
+    padding: 4px 6px;
+    font-size: 12px;
+    margin: 1px;
+  }
+
+  .terminal-popup,
+  .info-popup {
+    width: 95%;
+    left: 2.5%;
+    max-width: 95%;
+    top: 50px;
+  }
+
+  .login-card {
+    width: 100%;
+    padding: 15px;
   }
 
   input[type="text"],
   input[type="password"],
   button {
+    font-size: 14px;
     width: 100%;
-  }
-
-  .login-card {
-    width: 100%;
-    margin: 0 auto;
   }
 }
