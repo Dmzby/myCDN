@@ -1,0 +1,2 @@
+# myCDN
+just a  cdn
