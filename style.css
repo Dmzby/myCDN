@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  body {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .header-content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logout-btn {
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  .file-table {
+    font-size: 12px;
+  }
+
+  .file-table th,
+  .file-table td {
+    padding: 6px 4px;
+    text-align: left;
+  }
+
+  .file-table .actions button,
+  .file-table .actions a {
+    padding: 4px 6px;
+    font-size: 12px;
+    margin: 1px;
+  }
+
+  .terminal-popup,
+  .info-popup {
+    width: 95%;
+    left: 2.5%;
+    max-width: 95%;
+    top: 50px;
+  }
+
+  .login-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  button {
+    font-size: 14px;
+    width: 100%;
+  }
+}
