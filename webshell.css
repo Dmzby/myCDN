@@ -9,6 +9,8 @@
       min-height: 100vh;
       font-family: 'Inter', sans-serif;
       color:rgb(0, 0, 0);
+            margin: 10px;
+      padding: 10px;
     }
     
     .background-pattern {
